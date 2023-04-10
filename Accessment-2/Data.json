@@ -1,0 +1,31 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor sit amet !",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "-$500.00",
+      "deposit": "$500.00"
+    },
+    {
+      "name": "Jaittry",
+      "discription": "Lorem ipsum dolor sit amet !",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "-$500.00",
+      "deposit": "$500.00",
+      "id": 4
+    },
+    {
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor sit amet !",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "$4",
+      "deposit": "$500.00",
+      "id": 5
+    }
+  ]
+}
