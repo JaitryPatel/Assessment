@@ -1,0 +1,58 @@
+{
+  "Users": [
+    {
+      "name": "A Culhane",
+      "discription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam mollitia aliquam reiciendis.",
+      "status": "Open",
+      "rate": "$80,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 1
+    },
+    {
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam mollitia aliquam reiciendis.",
+      "status": "Open",
+      "rate": "$60,00",
+      "balance": "-$270.00",
+      "deposit": "$500.00",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam mollitia aliquam reiciendis.",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "-$270.00",
+      "deposit": "$500.00"
+    },
+    {
+      "id": 4,
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam mollitia aliquam reiciendis.",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "-$270.00",
+      "deposit": "$500.00"
+    },
+    {
+      "id": 5,
+      "name": "Ann Culhane",
+      "discription": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam mollitia aliquam reiciendis.",
+      "status": "Open",
+      "rate": "$70.00",
+      "balance": "-$270.00",
+      "deposit": "$500.00"
+    },
+    {
+      "name": "Jaitry",
+      "discription": "lorem23",
+      "status": "Success",
+      "rate": "$50,00",
+      "balance": "-$500,00",
+      "deposit": "$1000,00",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Await</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <button type="button" id="status">Status</button>
+                <button type="button" id="add">
+                    <label for="box" style="cursor:pointer;"> + Add Customer</label></button>
+        </div>
+        <div class="container1">
+            <input type="checkbox" id="box" hidden>
+            <form id="form">
+                <div class="row1">
+                    <div class="details">
+                        <label for="name">NAME<sup>*</sup> :</label>
+                        <!-- <input type="text" placeholder="Enter Name" id="name" onkeyup="checkname()" required> -->
+                        <input type="text" placeholder="Enter Name" id="name" required>
+                        <p id="name-error">Please Enter Valid Name</p>
+                    </div>
+
+                    <div class="details">
+                        <label for="discription">DISCRIPTION<sup>*</sup> :</label>
+                        <!-- <input type="text" placeholder="Enter Discription" id="discription" onkeyup="checkdiscription()" required> -->
+                        <input type="text" placeholder="Enter Discription" id="discription"  required>
+                        <p id="discription-error">Please Enter Valid Discription</p>
+                    </div>
+
+                    <div class="details">
+                        <label for="status">STATUS<sup>*</sup> :</label>
+                        <!-- <input type="text" placeholder="Enter Status" id="status"> -->
+                        <select id="status">
+                            <option value="Enter Status">Enter Status</option>
+                            <option value="Success" id="Success">Success</option>
+                            <option value="Open" id="Open">Open</option>
+                            <option value="Error" id="Error">Error</option>
+                            <option value="Inactive" id="Inactive">Inactive</option>
+                        </select>
+                        <p id="status-error">Please Enter Valid Status</p>
+                    </div>
+                </div>
+                <div class="row2">
+
+                    <div class="details">
+                        <label for="rate">RATE<sup>*</sup> :</label>
+                        <!-- <input type="text" placeholder="Enter Rate" id="rate" onkeyup="checkrate()" required> -->
+                        <input type="text" placeholder="Enter Rate" id="rate" required>
+                        <p id="rate-error">Please Enter Valid Rate</p>
+                    </div>
+
+                    <div class="details">
+                        <label for="balance">BALANCE<sup>*</sup> :</label>
+                        <!-- <input type="balance" placeholder="Enter Balance" id="balance" onkeyup="checkbalance()" required> -->
+                        <input type="balance" placeholder="Enter Balance" id="balance" required>
+
+                        <p id="balance-error">Please Enter Valid Balance</p>
+                    </div>
+
+                    <div class="details">
+                        <label for="deposit">DEPOSIT<sup>*</sup> :</label>
+                        <input type="deposit" placeholder="Enter Deposit" id="deposit" required>
+                        <p id="deposit-error">Please Enter Valid Deposit</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="btn">
+            <div class="submitBtn">
+                <button type="button" id="pushBtn" onclick="addData()">Submit</button>
+            </div>
+        
+        </div>
+        <div class="container2">
+            <table id="table" ></table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
