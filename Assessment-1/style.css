@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+/* create header */
+.header{
+    display: flex;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    margin: 7px;
+    justify-content: space-between;
+}
+.header .header-left{
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
+.header .header-left .hambuger{
+    background: transparent;
+    margin: 7px;
+}
+.header .header-left .search-input{
+    border: 2px solid var gray;
+    background-image: url(search.png);
+    background-position: 10px;
+    text-indent:  31px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 24px;
+    width: 200%;
+}
+.header .header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .header-right .notification-btn{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    gap: 5px;
+}
+.table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-x: auto;
+}
+.table tr{
+    padding: 5px;
+}
+.table th{
+    color: #5F6980;
+}
+.table-1, .table-2{
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .container1{
+    margin: 15px 5px 15px 5px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+    height: 190px;
+    width: 49%;
+}
+.container .container1 .heading{
+    display: flex;
+    padding: 10px;
+}
+.table-1{ 
+    overflow-x: auto;
+}
+/* apply color */
+.container .table-1 .table-data .Threshold{
+    color: green;
+}
+.table-2{
+    overflow-x: auto;
+}
+.container .table-2 .table-data .Threshold1{
+    color: green;
+}
+
+.table-data{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: left;
+    border-top: 1px solid #EAECF0;
+}
+.table-heading{
+    text-align: left;
+}
+
+/* create third table */
+.information{
+    margin: 15px 5px 15px 5px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px;
+
+}
+.information .products{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.table-1 .table-heading{
+    margin-right: 140px;
+}
+/* create button */
+.information .products .btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.information .products .btn .products-btn1{
+    background-color: blue;
+    padding:  5px;
+    border-radius: 5px;
+}
+.information .products .btn .products-btn1 p{ 
+    color: white;
+}
+.information .products .btn .products-btn{
+    padding:  5px;
+    border-radius: 5px;
+}
+.table-3{
+    width: 100%;
+    overflow-x: auto;
+}
+.table-3 tr{
+    padding: 5px;
+}
+.page{
+    text-align: center;
+}
+.in-stock{
+    color: green;
+}
+.out-of-stock{
+    color: red;
+}
+.low-stock{
+    color: orangered;
+}
+
+.web {
+    display: flex;
+    flex-direction: row;
+}
+/* create side bar */
+.nav{
+    display: flex;
+}
+.nav .sidebar{
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px;
+}
+
+/* Root : Aside : nav : logo-text */
+.nav  .img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.nav .text{
+    font-size: 20px;
+    color: #1570EF;
+    font-weight: 600;
+    margin: 10px;
+}
+
+/* Root : Aside : nav : navigation */
+
+ ul{
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.web .sidebar .nav .navigation ul li a{
+    display: flex;
+    padding: 17px 0px;
+    color: #5D6679;
+    font-size: 16px;
+    position: relative;
+    align-items: center;
+    gap: 18px;
+}
+
+/* web : sidebar : nav : navigation */
+
+#box,.sidebar{
+    display: none;
+}
+#box:checked+ .sidebar{
+    display: block;
+}
+
+
+    
+
+
+
+

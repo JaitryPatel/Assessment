@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="web">
+        <input type="checkbox" id="box" hidden>
+        <div class="sidebar">
+            <div class="nav">
+                <span class="img"><img src="Logo (1).png" alt=""></span>
+                <span class="text">KANBAN</span>
+            </div>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Dashboard.png"></span>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Inventory.png"></span>
+                        <span>Inventory</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Reports.png"></span>
+                        <span>Reports</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Suppliers.png"></span>
+                        <span>Suppliers</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Orders.png"></span>
+                        <span>Orders</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>
+                        <span><img src="Manage Store.png"></span>
+                        <span>Manage Store</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <header class="header">
+                <div class="header-left">
+                    <label for="box" class="hambuger">
+                        <img src="hambuger menu.png" alt="hambuger">
+                    </label>
+                    <div class="search">
+                        <input type="text" class="search-input" placeholder="Search product, supplier, order">
+
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <!--start: notification-->
+                    <button class="notification-btn">
+                        <img src="notification.png" alt=" Notification img">
+                    </button>
+                    <!--AVATAR-->
+                    <button class="notification-btn">
+                        <img src="Avatar.png" alt=" Notification img">
+                    </button>
+
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="container1">
+                    <div class="heading">
+                        <h2>Overview</h2>
+                    </div>
+                    <!--create first table 1-->
+                    <div class="table-1">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="table-heading">Category</th>
+                                    <th class="table-heading">Annual</th>
+                                    <th class="table-heading">Threshold</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-data">Drinks</td>
+                                    <td class="table-data">₹46,000</td>
+                                    <td class="table-data"> <span class="Threshold">6000</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table-data">Grocerys</td>
+                                    <td class="table-data">₹1,22,000</td>
+                                    <td class="table-data"> <span class="Threshold">8000</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table-data">Households</td>
+                                    <td class="table-data">₹2,22,000</td>
+                                    <td class="table-data"> <span class="Threshold">9999</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container1">
+                    <div class="heading">
+                        <h2>Best selling Category</h2>
+                    </div>
+                    <!--create first table 2-->
+                    <div class="table-2">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="table-heading">Category</th>
+                                    <th class="table-heading">TurnOver</th>
+                                    <th class="table-heading">Incresed-By</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="table-data">Vegetable</td>
+                                    <td class="table-data">₹26,000</td>
+                                    <td class="table-data"> <span class="Threshold1">3.2%</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table-data">Instant-Food</td>
+                                    <td class="table-data">₹22,000</td>
+                                    <td class="table-data"> <span class="Threshold1">2%</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="table-data">Households</td>
+                                    <td class="table-data">₹22,000</td>
+                                    <td class="table-data"> <span class="Threshold1">1.5%</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--create third table-->
+            <div class="information">
+                <div class="products">
+                    <div class="title">
+                        <h2>Products</h2>
+                    </div>
+                    <div class="btn">
+                        <div>
+                            <button class="products-btn1"><p>Add Products</p></button>
+                        </div>
+                        <div>
+                            <button class="products-btn">Download all</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <table class="table-3">
+                        <tr>
+                            <th class="table-heading">Products</th>
+                            <th class="table-heading">Buying Price</th>
+                            <th class="table-heading">Quantity</th>
+                            <th class="table-heading">Threshold Value</th>
+                            <th class="table-heading"> Expiry Date</th>
+                            <th class="table-heading">Availability</th>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Maggi</td>
+                            <td class="table-data">₹430</td>
+                            <td class="table-data">43 Packets</td>
+                            <td class="table-data"> 12 Packets</td>
+                            <td class="table-data">11/12/22</td>
+                            <td class="table-data"><span class="In-stock">In-stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Bru</td>
+                            <td class="table-data">₹257</td>
+                            <td class="table-data">22 Packets</td>
+                            <td class="table-data">12 Packets</td>
+                            <td class="table-data">21/12/22</td>
+                            <td class="table-data"><span class="out-of-stock">Out of stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Red Bull</td>
+                            <td class="table-data">₹405</td>
+                            <td class="table-data">36 Packets</td>
+                            <td class="table-data">9 Packets</td>
+                            <td class="table-data">5/12/22</td>
+                            <td class="table-data"><span class="In-stock">In-stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Bourn Vita</td>
+                            <td class="table-data">₹502</td>
+                            <td class="table-data"> 14 Packets</td>
+                            <td class="table-data">6 Packets</td>
+                            <td class="table-data">8/12/22</td>
+                            <td class="table-data"><span class="out-of-stock">Out of stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Horlicks</td>
+                            <td class="table-data">₹530</td>
+                            <td class="table-data">5 Packets</td>
+                            <td class="table-data">5 Packets</td>
+                            <td class="table-data">9/1/23</td>
+                            <td class="table-data"><span class="In-stock">In-stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Harpic</td>
+                            <td class="table-data">₹605</td>
+                            <td class="table-data">10 Packets</td>
+                            <td class="table-data">5 Packets</td>
+                            <td class="table-data">15/12/23</td>
+                            <td class="table-data"><span class="In-stock">In-stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Ariel</td>
+                            <td class="table-data">₹408</td>
+                            <td class="table-data">23 Packets</td>
+                            <td class="table-data">7 Packets</td>
+                            <td class="table-data">6/6/23</td>
+                            <td class="table-data"><span class="out-of-stock">Out of stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Scotch Brite</td>
+                            <td class="table-data">₹359</td>
+                            <td class="table-data">43 Packets</td>
+                            <td class="table-data">8 Packets</td>
+                            <td class="table-data">6/6/23</td>
+                            <td class="table-data"><span class="In-stock">In-stock</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="table-data">Coca cola</td>
+                            <td class="table-data">₹205</td>
+                            <td class="table-data">41 Packets</td>
+                            <td class="table-data">10 Packets</td>
+                            <td class="table-data">11/11/22</td>
+                            <td class="table-data"><span class="low-stock">Low stock</span></td>
+                        </tr>
+                        <tr class="page">
+                            <td colspan="6">Page 1 0f 10</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
